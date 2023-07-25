@@ -39,6 +39,9 @@
    .font-manrope{
     font-family: 'Manrope', sans-serif;
    }
+   .footer-bg{
+    background: linear-gradient(270deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 137, 56, 0.10) 100%);
+   }
   </style>
 
 </head>
@@ -197,7 +200,7 @@
             <div class=" text-white space-y-5">
                 <h1 class=" text-2xl lg:text-4xl font-extrabold">Meet Our Super <br> Clients</h1>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,or randomised words which don't look even slightly believable. </p>
-                <button class="btn text-orange-600 capitalize font-semibold">Show All</button>
+                <button class=" btn text-orange-500 capitalize font-semibold">Show All</button>
                </div>
            </div>
 
@@ -261,13 +264,126 @@
 
      </section>
      <!-- super client section -->
+
+     <!-- news and event section -->
+     <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 lg:py-20 mt-10 lg:mt-14" >
+
+       <!-- heading -->
+       <div class="text-center  space-y-3">
+        <h1 class=" capitalize text-2xl font-extrabold h-text-color lg:text-5xl ">News & Events</h1>
+        <p class="p-text-color">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+      </div>
+
+      <!-- cards -->
+       <div class="mt-7 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <!-- card one -->
+        <div>
+          <div class="card  bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/news-1.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body">
+              <h2 class="p-text-color">Feb 05, 2027!</h2>
+              <h1 class="text-2xl font-extrabold h-text-color">Collecting 8 points for discount</h1>
+              <p class="p-text-color">There are many variations of passages of Lorem Ipsum available.</p>
+              <p class="text-sm font-extrabold h-text-color">Learn More</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- card two -->
+        <div>
+          <div class="card  bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/news-2.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body">
+              <h2 class="p-text-color">Feb 05, 2027!</h2>
+              <h1 class="text-2xl font-extrabold h-text-color">Collecting 8 points for discount</h1>
+              <p class="p-text-color">There are many variations of passages of Lorem Ipsum available.</p>
+              <p class="text-sm font-extrabold h-text-color">Learn More</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- card three -->
+        <div>
+          <div class="card  bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/news-3.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body">
+              <h2 class="p-text-color">Feb 05, 2027!</h2>
+              <h1 class="text-2xl font-extrabold h-text-color">Collecting 8 points for discount</h1>
+              <p class="p-text-color">There are many variations of passages of Lorem Ipsum available.</p>
+              <p class="text-sm font-extrabold h-text-color">Learn More</p>
+            </div>
+          </div>
+        </div>
+       </div>
+     </section>
+     <!-- news and event section -->
    </main>
    <!-- main section end here -->
 
    <!-- footer section start here -->
-   <footer>
+   <footer class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-10 footer-bg">
 
-   </footer>
+    <div class="flex justify-between items-center gap-4">
+      <div>
+      <img src="./images/cup.png" alt="">
+      </div>
+ 
+      <div class="flex items-center gap-4">
+      <h1>Ready to get strated?</h1>
+      <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] text-white">Get Started</button>
+      </div>
+     </div>
+
+
+    <section class="footer mt-10">
+      <div>
+        <span class="text-xl font-extrabold">Quick Links</span> 
+        <a class="link link-hover">Home</a> 
+        <a class="link link-hover">About Us</a> 
+        <a class="link link-hover">Insurance</a> 
+        <a class="link link-hover">Privacy Policy</a>
+      </div> 
+      <div>
+        <span class="text-xl font-extrabold">Our Service</span> 
+        <a class="link link-hover">Life Insurance</a> 
+        <a class="link link-hover">Car Insurance</a> 
+        <a class="link link-hover">Health Insurance</a> 
+        <a class="link link-hover">House Insurance</a>
+      </div> 
+      <div>
+        <span class="text-xl font-extrabold">Help</span> 
+        <a class="link link-hover">FAQs</a> 
+        <a class="link link-hover">Contact Us</a>
+      </div> 
+      <div>
+        <span class="text-xl font-extrabold">Subscribe to our <br> newsletter</span> 
+        <div class="form-control w-80">
+          <label class="label">
+            <span class="label-text">Enter your email address</span>
+          </label> 
+          <div class="relative">
+            <input type="text" placeholder="username@site.com" class="bg-transparent border-b-2 border-black outline-none w-60 pb-4" /> 
+
+            <button class="btn btn bg-gradient-to-r from-[#FF8938] to-[#F00] text-white absolute top-0 right-0 rounded-full"><img src="./images/Frame 4140.svg" alt=""></button>
+
+            <div class="mt-7 flex items-center gap-8">
+              <a href="#"><img src="./images/Frame.svg" alt=""></a>
+             <a href="#"> <img src="./images/Frame (1).svg" alt=""></a>
+             <a href="#"><img src="./images/Frame (2).svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <h1 class="text-center mt-10">© 2027 UIDesign.to - All rights reserved.</h1>
+  </footer>
    <!-- footer section end here -->
 </body>
 </html>
